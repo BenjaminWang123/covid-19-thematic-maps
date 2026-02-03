@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>COVID-19 County Cases (2020)</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <!-- Mapbox (UPDATED version to support projection) -->
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+    <link rel="stylesheet" href="css/map2.css">
+</head>
+
+<body>
+
+    <div id="map"></div>
+
+    <div id="info">
+        <h2>COVID-19 County Cases (2020)</h2>
+        <p><em>Click on a county to view total confirmed COVID-19 cases.</em></p>
+
+        <p>
+            This proportional symbols map shows total COVID-19 case counts by county
+            across the United States in 2020. Larger circles represent counties with
+            higher total case numbers.
+        </p>
+
+        <p>
+            <strong>Projection:</strong> Albers<br>
+            <strong>Data sources:</strong><br>
+            COVID-19 county-level case data from
+            <a href="https://github.com/nytimes/covid-19-data" target="_blank">The New York Times</a> (2020).<br>
+            Population data from the
+            <a href="https://data.census.gov/" target="_blank">2018 ACS 5-year estimates</a>.<br>
+            County boundaries from the
+            <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html"
+               target="_blank">U.S. Census Bureau</a>.
+        </p>
+
+        <p>
+            <strong>Author:</strong> Benni Wang<br>
+            <strong>Class:</strong> GEOG 458 – Advanced Digital Geographies<br>
+            <strong>Date:</strong> February 2026
+        </p>
+    </div>
+
+    <div id="legend"></div>
+
+    <script src="js/map2.js"></script>
+
+</body>
+</html>

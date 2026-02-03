@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>COVID-19 County Rates (2020)</title>
+  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.15.0/mapbox-gl.js"></script>
+
+  <link rel="stylesheet" href="css/map1.css" />
+</head>
+
+<body>
+  <div id="map"></div>
+
+  <!-- 1) Title + hover info -->
+  <div class="map-overlay" id="features">
+    <h2>Mapping COVID-19 Case Rates at the County Level, 2020</h2>
+    <div id="text-description">
+      <p>Hover over a county!</p>
+    </div>
+  </div>
+
+  <!-- 3) Legend -->
+  <div class="map-overlay" id="legend"></div>
+
+  <!-- 2) Supplementary info -->
+  <div class="map-overlay" id="info">
+    <h2>COVID-19 County Rates (2020)</h2>
+    <p>
+      This map shows county-level COVID-19 case rates across the United States in 2020.
+      Counties are shaded by the number of confirmed cases per 100,000 residents.
+    </p>
+
+    <p><strong>Projection:</strong> Albers (Equal Area)</p>
+
+    <p><strong>Data source:</strong><br />
+      COVID-19 county-level case data from
+      <a href="https://github.com/nytimes/covid-19-data" target="_blank" rel="noopener noreferrer">The New York Times</a> (2020).
+      Population data from the
+      <a href="https://data.census.gov/cedsci/table?tid=ACSDP5Y2018.DP05" target="_blank" rel="noopener noreferrer">2018 ACS 5-year estimates</a>.
+      County boundary shapefiles from the
+      <a href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau</a>.
+      Data processed for this lab.
+    </p>
+
+    <p>
+      <strong>Author:</strong> Benni Wang<br />
+      <strong>Class:</strong> GEOG 458<br />
+      <strong>Date:</strong> February 3, 2026
+    </p>
+  </div>
+
+  <script src="js/map1.js"></script>
+</body>
+
+</html>
