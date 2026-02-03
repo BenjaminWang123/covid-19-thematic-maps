@@ -17,10 +17,11 @@ The goal of this project is to explore how different cartographic techniques—c
 ---
 
 ## Screenshots
-*(Add screenshots after deployment)*
+- ### Map 1 – Choropleth Map: COVID-19 County Case Rates (2020)
+![Map 1 Screenshot](img/map1.png)
 
-- `screenshots/map1_choropleth.png`
-- `screenshots/map2_proportional_symbols.png`
+### Map 2 – Proportional Symbols Map: COVID-19 County Total Cases (2020)
+![Map 2 Screenshot](img/map2.png)
 
 ---
 
@@ -96,16 +97,4 @@ The goal of this project is to explore how different cartographic techniques—c
 - **Author:** Benni Wang
 - **Course:** GEOG 458 – Advanced Digital Geographies
 - **Institution:** University of Washington
-- **Date:** February 2026
-
----
-
-## Acknowledgments
-- Course materials and lab structure provided by the GEOG 458 instructional team.
-- Data providers including The New York Times, U.S. Census Bureau, and the U.S. Census ACS program.
-- Open-source mapping tools and documentation from Mapbox.
-
----
-
-## Notes
-This project is intended for educational purposes only and demonstrates cartographic design principles, interactive web mapping techniques, and ethical data citation practices.
+- **Date:** February 3 2026
