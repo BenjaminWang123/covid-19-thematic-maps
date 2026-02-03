@@ -9,10 +9,10 @@ The goal of this project is to explore how different cartographic techniques—c
 
 ## Live Maps
 - **Map 1 – Choropleth Map (COVID-19 Case Rates)**
-  [View map1.html](https://www.github.com/your_github_username/your_repository_name/map1.html)
+  [View map1.html](https://benjaminwang123.github.io/covid-19-thematic-maps/map1.html)
 
 - **Map 2 – Proportional Symbols Map (COVID-19 Total Cases)**
-  [View map2.html](https://www.github.com/your_github_username/your_repository_name/map2.html)
+  [View map2.html](https://benjaminwang123.github.io/covid-19-thematic-maps/map2.html)
 
 ---
 
